@@ -48,13 +48,14 @@ const AnimeList = ({ api }) => {
                             onMouseLeave={handleMouseLeave}
                         >
                             <Image
-                                src={anime.images.webp.large_image_url}
-                                alt="ANIME"
+                                src={anime.images.webp.large_image_url || anime.images.jpg.image_url} 
+                                alt={anime.title}
                                 width={300}
                                 height={400}
                                 style={{ ...imageStyle }}
                                 className=""
-                            />
+                                priority={anime.images.webp.large_image_url || anime.images.jpg.image_url === "https://cdn.myanimelist.net/images/anime/1455/146229l.webp" ? true : undefined}
+                                />
                             <div key={`text-${index}`} className="gap-1 absolute text-color-primary flex flex-row-2 bg-color-accent px-2 py-1 top-0 left-0 text-[8px] lg:px-2 lg:py-1 lg:top-0 lg:text-[10px]">
                                 ZNUAVIN
                             </div>
