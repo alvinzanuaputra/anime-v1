@@ -49,7 +49,7 @@ const AnimeList = ({ api }) => {
                         >
                             <Image
                                 src={anime.images.webp.large_image_url || anime.images.jpg.image_url} 
-                                alt={anime.title}
+                                alt={"./images/gintama.webp"}
                                 width={300}
                                 height={400}
                                 style={{ ...imageStyle }}
