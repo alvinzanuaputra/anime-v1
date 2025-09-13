@@ -38,7 +38,7 @@ const Page = async ({ params: { id } }) => {
         <div className="py-4 border-t-2 border-color-third bg-color-hitam text-left overflow-x-hidden animate__animated animate__zoomIn animate__delay-1s">
             <div className="flex border-y-2 mb-4 border-color-third">
                 <navbar className="text-[9px] py-2 w-full flex justify-center items-center bg-color-dark text-color-primary gap-1 lg:text-xs">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 256 256"><path d="M240,120a48.05,48.05,0,0,0-48-48H152.2c-2.91-.17-53.62-3.74-101.91-44.24A16,16,0,0,0,24,40V200a16,16,0,0,0,26.29,12.25c37.77-31.68,77-40.76,93.71-43.3v31.72A16,16,0,0,0,151.12,214l11,7.33A16,16,0,0,0,186.5,212l11.77-44.36A48.07,48.07,0,0,0,240,120ZM40,199.93V40h0c42.81,35.91,86.63,45,104,47.24v65.48C126.65,155,82.84,164.07,40,199.93Zm131,8,0,.11-11-7.33V168h21.6ZM192,152H160V88h32a32,32,0,1,1,0,64Z"></path></svg><section className="rounded  bg-color-accent">ATTENTION !!</section> STILL MAINTENANCE.   JOIN GROUP TELEGRAM<a href="https://t.me/zanuatech"><section className="underline text-color-accent hover:text-color-primary duration-500 transition-all">ZNUAVIN.</section></a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 256 256"><path d="M240,120a48.05,48.05,0,0,0-48-48H152.2c-2.91-.17-53.62-3.74-101.91-44.24A16,16,0,0,0,24,40V200a16,16,0,0,0,26.29,12.25c37.77-31.68,77-40.76,93.71-43.3v31.72A16,16,0,0,0,151.12,214l11,7.33A16,16,0,0,0,186.5,212l11.77-44.36A48.07,48.07,0,0,0,240,120ZM40,199.93V40h0c42.81,35.91,86.63,45,104,47.24v65.48C126.65,155,82.84,164.07,40,199.93Zm131,8,0,.11-11-7.33V168h21.6ZM192,152H160V88h32a32,32,0,1,1,0,64Z"></path></svg><section className="rounded  bg-color-accent">ATTENTION !!</section> STILL MAINTENANCE.   CHAT ME TELEGRAM<a href="https://t.me/alvnzanuputra"><section className="underline text-color-accent hover:text-color-primary duration-500 transition-all">ZNUAVIN.</section></a>
                 </navbar>
             </div>
 
@@ -210,7 +210,6 @@ const Page = async ({ params: { id } }) => {
                     <h3 className="text-color-accent">{truncateWords(anime.data.title, 4)}</h3>
                 </div>
             </section>
-
         </div>
     );
 };
