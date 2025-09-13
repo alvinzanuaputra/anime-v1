@@ -13,8 +13,8 @@ pnpm dev
 # or
 bun dev
 
-npx prisma db push --force-reset
 ```
+npx prisma db push --force-reset
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

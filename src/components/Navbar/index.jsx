@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import InputSearch from './InputSearch';
 import UserActionButton from './UserActionButton';
+import PWAInstallButton from '@/components/PWAInstall';
 import 'animate.css/animate.min.css';
 
 const Navbar = () => {
@@ -13,7 +14,10 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <InputSearch />
-                <UserActionButton />
+                <div className="flex items-center gap-3">
+                    <PWAInstallButton />
+                    <UserActionButton />
+                </div>
             </div>
         </header>
     );
