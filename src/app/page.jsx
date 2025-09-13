@@ -29,11 +29,11 @@ const Page = async () => {
                                 style={{
                                     fontStyle: "italic"
                                 }}
-                            >ZNUAVIN</h2>
+                            >ZANUANIME</h2>
                             <p className="text-xs text-color-primary grid mb-16 md:w-1/4 lg:w-1/2">
-                                ZNUAVIN, menjadi destinasi utama bagi penggemar anime di Indonesia. Menyajikan list anime, ZNUAVIN berkomitmen memberikan akses tanpa batas kepada para pecinta anime.  ZNUAVIN hadir untuk memenuhi kebutuhan hiburan anime tanpa biaya berlangganan, seperti Netflix, Disney+, HBO, Apple TV+, dan Amazon Prime Video.
+                                ZANUANIME, menjadi destinasi utama bagi penggemar anime di Indonesia. Menyajikan list anime, ZANUANIME berkomitmen memberikan akses tanpa batas kepada para pecinta anime.  ZANUANIME hadir untuk memenuhi kebutuhan hiburan anime tanpa biaya berlangganan, seperti Netflix, Disney+, HBO, Apple TV+, dan Amazon Prime Video.
 
-                                Kami berupaya memberikan pengalaman untuk melihat anime populer yang memuaskan untuk para penikmat anime di Indonesia. Penting untuk dicatat bahwa ZNUAVIN khusus fokus pada anime dan tidak menyediakan konten film atau serial TV dari Indonesia.
+                                Kami berupaya memberikan pengalaman untuk melihat anime populer yang memuaskan untuk para penikmat anime di Indonesia. Penting untuk dicatat bahwa ZANUANIME khusus fokus pada anime dan tidak menyediakan konten film atau serial TV dari Indonesia.
 
                                 Tetap pantau perkembangan website ini, karena kami terus berupaya mengembangkan layanan demi memenuhi kebutuhan penggemar anime di seluruh Indonesia.
 
@@ -77,7 +77,7 @@ const Page = async () => {
                 <div className="lg:w-full lg:flex flex-cols-1">
                     <div className="justify-items-start pt-1 lg:w-full lg:flex lg:pt-10 lg:justify-between">
                         <h1 className="mx-8 pt-2 text-color-primary text-sm pb-3 border-t-color-accent">
-                            Copyright © 2024 by <a href="/"><span className="underline text-color-primary hover:text-color-accent">ZNUAVIN</span></a>. All Rights Reserved.
+                            Copyright © 2024 by <a href="/"><span className="underline text-color-primary hover:text-color-accent">ZANUANIME</span></a>. All Rights Reserved.
                         </h1>
                         <div className="ml-8 lg:flex items-end gap-2 flex flex-cols-5 pb-2">
                             <a href="https://www.youtube.com/@alvinzanuaputra"
