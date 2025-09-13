@@ -14,9 +14,9 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <InputSearch />
-                <div className="flex items-center gap-3">
-                    <PWAInstallButton />
+                <div className="flex items-center justify-between gap-1">
                     <UserActionButton />
+                    <PWAInstallButton />
                 </div>
             </div>
         </header>
