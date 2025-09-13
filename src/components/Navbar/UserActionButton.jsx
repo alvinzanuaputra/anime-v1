@@ -11,10 +11,10 @@ const UserActionButton = async() => {
     return (
         <div className="flex items-center justify-between gap-2 animate__animated animate__bounce animate__delay-4s">
             {
-                user ? <Link href="/users/dashboard" className ="inline-block bg-color-dark text-color-primary rounded-lg border border-color-accent py-1 px-6 lg:font-bold
+                user ? <Link href="/users/dashboard" className ="inline-block bg-color-dark text-color-primary rounded-lg border border-color-accent py-1 px-2 lg:font-bold
                 hover:text-color-accent hover:bg-color-dark hover:border-color-dark duration-500 transition-all text-[14px] lg:text-[16px] lg:py-1 sm:text-[16px] sm:py-1"> Dashboard </Link> : null
             }
-            <Link href={actionURL} className = "inline-block bg-color-dark text-color-primary rounded-lg border border-color-accent py-1 px-6 lg:font-bold hover:text-color-accent hover:bg-color-dark hover:border-color-dark duration-500 transition-all text-[14px] lg:text-[16px] lg:py-1 sm:text-[16px] sm:py-1">{actionLabel}</Link>
+            <Link href={actionURL} className = "inline-block bg-color-dark text-color-primary rounded-lg border border-color-accent py-1 px-2 lg:font-bold hover:text-color-accent hover:bg-color-dark hover:border-color-dark duration-500 transition-all text-[14px] lg:text-[16px] lg:py-1 sm:text-[16px] sm:py-1">{actionLabel}</Link>
         </div>
     )
 }
